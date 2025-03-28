@@ -25,7 +25,7 @@ days = [0] * 100 # Create a list of 100 elements
 
 # Generate random values between 50 and 150 for the list to simluate daily prices
 for i in range(100):
-    days[i] = random.randint(50, 150)
+    days[i] = random.randint(100, 150)
 
 priceChange = [0] * 100 # Create a list of 100 elements for price changes
 for i in range(1, 100):
